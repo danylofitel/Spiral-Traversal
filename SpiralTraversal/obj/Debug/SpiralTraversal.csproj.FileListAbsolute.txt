@@ -1,0 +1,6 @@
+c:\users\danylo\documents\visual studio 2015\Projects\SpiralTraversal\SpiralTraversal\bin\Debug\SpiralTraversal.exe.config
+c:\users\danylo\documents\visual studio 2015\Projects\SpiralTraversal\SpiralTraversal\bin\Debug\SpiralTraversal.exe
+c:\users\danylo\documents\visual studio 2015\Projects\SpiralTraversal\SpiralTraversal\bin\Debug\SpiralTraversal.pdb
+c:\users\danylo\documents\visual studio 2015\Projects\SpiralTraversal\SpiralTraversal\obj\Debug\SpiralTraversal.csprojResolveAssemblyReference.cache
+c:\users\danylo\documents\visual studio 2015\Projects\SpiralTraversal\SpiralTraversal\obj\Debug\SpiralTraversal.exe
+c:\users\danylo\documents\visual studio 2015\Projects\SpiralTraversal\SpiralTraversal\obj\Debug\SpiralTraversal.pdb
