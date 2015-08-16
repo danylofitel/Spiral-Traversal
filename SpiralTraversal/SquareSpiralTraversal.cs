@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace SpiralTraversal
 {
-    public class SpiralTraversal
+    public class SquareSpiralTraversal
     {
         // Indicates whether size of the matrix is odd.
         private readonly bool Odd;
@@ -11,14 +11,14 @@ namespace SpiralTraversal
         // Size of the square matrix.
         private readonly int N;
 
-        // Number of cells in the matrix, used for performance.
+        // Number of cells in the matrix, used for performance reasons.
         private readonly int N2;
 
         // Number of loops in the traversal.
         private readonly int L;
 
         // Constructor from matrix size, size has to be a natural number.
-        public SpiralTraversal(int n)
+        public SquareSpiralTraversal(int n)
         {
             if (n < 1)
             {
@@ -115,7 +115,11 @@ namespace SpiralTraversal
         {
             Debug.Assert(k >= 1 && k <= N2);
 
-            return L - ((int)Math.Floor(Math.Sqrt(N2 - k)) + (Odd ? 1 : 0)) / 2;
+            int result = L - ((int)Math.Floor(Math.Sqrt(N2 - k)) + (Odd ? 1 : 0)) / 2;
+
+            Debug.Assert(result > 0);
+
+            return result;
         }
 
         // Loop number for given cell coordinates.
