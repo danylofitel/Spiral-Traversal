@@ -125,7 +125,7 @@ namespace SpiralTraversal
             Debug.Assert(k >= 1 && k <= MN);
 
             int result = L - (int)Math.Floor(
-                0.5 * Math.Sqrt(MN - k + D * D / 4.0) - (M + N - 4 * L) / 4.0);
+                0.5 * Math.Sqrt(MN - k + D * D / 4.0) - (M + N - 4.0 * L) / 4.0);
 
             Debug.Assert(result > 0);
 

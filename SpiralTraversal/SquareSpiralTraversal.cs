@@ -137,7 +137,7 @@ namespace SpiralTraversal
         {
             Debug.Assert(loops >= 0 && loops <= L);
 
-            if (Odd && loops == L)
+            if (loops == L)
             {
                 return N2;
             }
